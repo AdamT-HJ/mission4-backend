@@ -1,0 +1,20 @@
+{
+  "conversationHistory": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "start_conversation"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "I'm Tina. I help you choose the right insurance policy.  To help me do that, can you tell me a bit about what kind of insurance you're looking for?  For example, are you interested in health insurance, car insurance, home insurance, life insurance, or something else?  Also, what are your priorities?  (e.g., lowest cost, best coverage, specific features, etc.)\n"
+        }
+      ]
+    }
+  ]
+}

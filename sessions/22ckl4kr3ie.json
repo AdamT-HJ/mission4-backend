@@ -1,0 +1,20 @@
+{
+  "conversationHistory": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "start_conversation"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "I'm Tina. I help you choose the right insurance policy.  To help me recommend the best program for you, could you tell me a little about your needs and situation?  For example:\n\n* **What kind of insurance are you looking for?** (e.g., health, auto, home, life, renters, etc.)\n* **What's your budget?**  (A general range is fine.)\n* **What are your priorities?** (e.g., low premiums, comprehensive coverage, specific benefits, etc.)\n* **What's your age and location?** (This helps determine rates.)\n* **Do you have any pre-existing conditions (if applicable)?** (For health insurance)\n\nThe more information you provide, the better I can assist you.\n"
+        }
+      ]
+    }
+  ]
+}

@@ -105,14 +105,6 @@ const systemInstructions = {
     ]
 };
 
-// Greeting instructions
-const GREETING_SYSTEM_INSTRUCTION = {
-    role: "system",
-    parts: [
-        {text: "You are a friendly AI assistant. Your first response must be a warm greeting message to the user."},
-        {text: `you will end each sentence with an exclamation mark`}
-    ]
-};
 
 // Contact Gemini, update session history, and save    
 async function interactWithGemini(sessionId, currentHistory, newUserMessageParts = null, systemInstructionContent) {
@@ -213,23 +205,6 @@ app.get("/session", async (req, res)=>{
                 sessionId: sessionId,
                 conversationHistory: sessionData.conversationHistory // This will be an empty array
             });
-            // try{
-            //     const testToGemini = await ai.models.generateContent({
-            //         model: "gemini-2.0-flash", 
-            //         contents: [
-            //             {role:"user", parts: [{text: "hello"}]}
-            //             ],
-            //         config: {
-            //             systemInstruction: "YOU MUST RESPOND IN ALL CAPITAL LETTERS",
-            //         }
-            //     });
-            
-            //     console.log(testToGemini.text);
-            // } catch (geminiError){
-            //     console.error(`Error: Direct Gemini call for initial greeting failed for ${sessionId}.`)
-            // }
-        
-           
         }
     } catch (error) {
         console.error("Error in /session endpoint", error);
