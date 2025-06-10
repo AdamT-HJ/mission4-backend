@@ -1,0 +1,36 @@
+{
+  "conversationHistory": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "start_conversation"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "I'm Tina. I help you choose the right insurance policy.  To help me guide you, can you tell me a bit about your needs?  For example:\n\n* **What kind of insurance are you looking for?** (e.g., health, auto, home, life, renters, etc.)\n* **What is your budget?**  Knowing your price range will help me narrow down the options.\n* **What are your priorities?** (e.g., low premiums, comprehensive coverage, specific benefits)\n* **What is your age and location?** (This will affect pricing and availability.)\n\nThe more information you provide, the better I can assist you.\n"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "thanks lets get started"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Great!  Let's start with the questions I mentioned before:\n\n* **What kind of insurance are you looking for?** (e.g., health, auto, home, life, renters, etc.)\n* **What is your budget?**  (A general range is fine, e.g., \"under $100/month,\" \"around $200/month,\" etc.)\n* **What are your priorities?** (e.g., low premiums, comprehensive coverage, specific benefits like dental or vision)\n* **What is your age and location?** (You can provide a general location, e.g., \"California,\"  or a larger region if you prefer not to be specific.)\n\nOnce I have this information, I can start giving you more tailored advice.\n"
+        }
+      ]
+    }
+  ]
+}

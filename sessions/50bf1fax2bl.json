@@ -1,0 +1,36 @@
+{
+  "conversationHistory": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "start_conversation"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "I'm Tina. I help you choose the right insurance policy.  To best assist you, I need some information.  Could you tell me about your needs and circumstances?  For example:\n\n* **What type of insurance are you looking for?** (e.g., health, auto, home, life, renters, etc.)\n* **What is your budget?** (Knowing your price range will help me narrow down the options.)\n* **What is your location?** (Insurance rates vary by location.)\n* **What are your priorities?** (e.g., low premiums, comprehensive coverage, specific riders or features)\n* **What is your age and family status?** (This is relevant for some types of insurance.)\n\nThe more information you provide, the better I can help you find the right policy for your needs.\n"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "i need insurance for my car please"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Okay, you need car insurance.  To help me find the best options for you, please tell me:\n\n* **What type of car do you drive?** (Make, model, and year)  This affects your premiums.\n* **What is your driving history?** (Have you had any accidents or tickets in the past few years?  What's your driving record like?)  This is a major factor in determining your rates.\n* **Where do you live?** (Your location affects insurance rates.)\n* **How much coverage are you looking for?** (Liability only?  Comprehensive and collision?  Uninsured/underinsured motorist coverage?)\n* **What is your budget?** (Knowing your price range will help me narrow down the options.)\n* **Do you have any existing insurance policies?** (If you're switching companies, this is important information.)\n\nOnce I have this information, I can give you a more informed recommendation.\n"
+        }
+      ]
+    }
+  ]
+}

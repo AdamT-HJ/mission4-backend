@@ -1,0 +1,36 @@
+{
+  "conversationHistory": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "start_conversation"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "I'm Tina. I help you choose the right insurance policy.  To help me give you the best advice, can you tell me a bit more about what kind of insurance you're looking for?  For example, are you interested in health insurance, auto insurance, home insurance, life insurance, or something else?  And what are your priorities – affordability, comprehensive coverage, or something else?\n"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "great thanks"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Great!  Now, let's talk specifics. What type of insurance are you interested in?  Knowing this will help me narrow down the options and ask more relevant questions.\n"
+        }
+      ]
+    }
+  ]
+}

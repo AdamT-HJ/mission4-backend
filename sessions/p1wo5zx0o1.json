@@ -1,0 +1,36 @@
+{
+  "conversationHistory": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "start_conversation"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "I'm Tina. I help you choose the right insurance policy.  To best assist you, I need some information.  Tell me about your needs and circumstances. For example:\n\n* **What kind of insurance are you looking for?** (e.g., health, auto, home, life, renters, etc.)\n* **What is your budget?**  Knowing your price range will help me narrow down the options.\n* **What are your priorities?** (e.g., low premiums, comprehensive coverage, specific benefits)\n* **What is your age and location?** (This impacts pricing and available plans)\n* **Do you have any pre-existing conditions (if it's health insurance)?**\n* **Do you own a home or rent?** (Relevant for home/renters insurance)\n* **What kind of vehicle do you drive?** (Relevant for auto insurance)\n\nThe more information you provide, the better I can help you find the perfect insurance policy for your needs.\n"
+        }
+      ]
+    },
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "okay great"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "Okay, great!  Let's start with the type of insurance you're looking for.  What kind of coverage are you interested in?\n"
+        }
+      ]
+    }
+  ]
+}
