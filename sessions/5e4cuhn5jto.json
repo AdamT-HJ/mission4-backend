@@ -1,0 +1,20 @@
+{
+  "conversationHistory": [
+    {
+      "role": "user",
+      "parts": [
+        {
+          "text": "start_conversation"
+        }
+      ]
+    },
+    {
+      "role": "model",
+      "parts": [
+        {
+          "text": "I'm Tina. I help you choose the right insurance policy.  To help me guide you, can you tell me a bit about what kind of insurance you're looking for?  For example, are you interested in car insurance, home insurance, health insurance, life insurance, or something else?\n"
+        }
+      ]
+    }
+  ]
+}
